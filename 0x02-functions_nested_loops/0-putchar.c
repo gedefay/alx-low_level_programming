@@ -1,9 +1,8 @@
-#include <studio.h>
 #include <main.h>
 
 /**
  * main - begin of excution
- * return: 0 if successful
+ * Return: always 0 successful
  */
 
 int main(void)
