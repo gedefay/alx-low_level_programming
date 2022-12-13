@@ -1,24 +1,20 @@
-#include <studio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * main - begin of excution
- * Return: always 0 successful
+ * main - Print _putchar
+ * Return: Always 0
  */
 
 int main(void)
 {
-int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-
-int count, sz;
-
-sz = sizeof(str) / sizeof(int);
-
-for (count = 0; count < sz; count++)
-{
-	_putchar(str[count]);
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 _putchar('\n');
-
 return (0);
 }
