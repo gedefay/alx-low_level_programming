@@ -1,4 +1,4 @@
-#include <studio.h>
+#include "main.h"
 
 /**
  * _islower - check for lowercase character
